@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css?family=New+Rocker');
+
+body {
+    background-image: url(bg-img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+}
+
+#head {
+    font-family: 'New Rocker', cursive;
+    color: orange;
+    font-size: 72px;
+    padding-top: 50px;
+}
+
+.main-col {
+    position: relative;
+    width: 100%;
+}
+
+.dkit-col {
+    margin: 15% auto 0 auto;
+
+}
+
+.inst-list li {
+    list-style: none;
+    float: left;
+    margin-left: 2.5%;
+}
+
+.inst-btn {
+    border: 2px solid #000;
+    background-color: rgba(0, 0, 0, 0.3);
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'New Rocker', cursive;
+    text-align: center;
+    width: 80px;
+    border-radius: 5px;
+    color: #fff;
+    padding-top: 10px;
+    transition: all 0.07s;
+    
+}
+
+.playing {
+    transform: scale(1.1);
+    border: 3px solid #ffc600;
+    box-shadow: 0 0 3rem #ffc600;
+
+}
+
+.inst-btn p {
+    font-size: 10px;
+    color: orange;
+    font-family: sans-serif !important;
+    font-weight: bolder !important;
+}

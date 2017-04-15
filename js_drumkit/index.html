@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <title>Javascript Drumkit</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="style.css" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+        
+    </head>
+
+    <body>
+            <div class="container">
+              <h1 id="head" class="text-center">Javascript Drumkit</h1>
+                <div class="row">
+                    <div class="main-col">
+                        <div class="dkit-col">
+                             <ul class="inst-list">
+                                <li><button data-key="65" class="inst-btn">A<p class="sound">CLAP</p></button></li>   
+                                <li><button data-key="83" class="inst-btn">S<p class="sound">HIHAT</p></button></li>   
+                                <li><button data-key="68" class="inst-btn">D<p class="sound">KICK</p></button></li>   
+                                <li><button data-key="70" class="inst-btn">F<p class="sound">OPENHAT</p></button></li>   
+                                <li><button data-key="71" class="inst-btn">G<p class="sound">BOOM</p></button></li>   
+                                <li><button data-key="72" class="inst-btn">H<p class="sound">RIDE</p></button></li>   
+                                <li><button data-key="74" class="inst-btn">J<p class="sound">SNARE</p></button></li>   
+                                <li><button data-key="75" class="inst-btn">K<p class="sound">TOM</p></button></li>   
+                                <li><button data-key="76" class="inst-btn">L<p class="sound">TINK</p></button></li>   
+                             </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </body>
+    
+    <audio data-key="65" src="sounds/clap.wav"></audio>
+    <audio data-key="83" src="sounds/hihat.wav"></audio>
+    <audio data-key="68" src="sounds/kick.wav"></audio>
+    <audio data-key="70" src="sounds/openhat.wav"></audio>
+    <audio data-key="71" src="sounds/boom.wav"></audio>
+    <audio data-key="72" src="sounds/ride.wav"></audio>
+    <audio data-key="74" src="sounds/snare.wav"></audio>
+    <audio data-key="75" src="sounds/tom.wav"></audio>
+    <audio data-key="76" src="sounds/tink.wav"></audio>
+    
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+
+
+</html>
