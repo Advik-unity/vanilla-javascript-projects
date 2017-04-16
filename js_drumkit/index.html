@@ -4,6 +4,7 @@
 
     <head>
         <title>Javascript Drumkit</title>
+        <!--ADDED BOOTSTRAP & CUSTOM STYLESHEET  -->
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="style.css" rel="stylesheet" type="text/css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
@@ -16,6 +17,7 @@
                 <div class="row">
                     <div class="main-col">
                         <div class="dkit-col">
+                             <!--ASSIGNED DATA KEYS TO INSTRUMENT BUTTONS-->
                              <ul class="inst-list">
                                 <li><button data-key="65" class="inst-btn">A<p class="sound">CLAP</p></button></li>   
                                 <li><button data-key="83" class="inst-btn">S<p class="sound">HIHAT</p></button></li>   
@@ -30,9 +32,11 @@
                         </div>
                     </div>
                 </div>
+                <div style="margin-top: 150px; font-size: 17px; font-weight: 700;"><p class="text-center">Designed &amp; Coded by: <a href="http://codepen.io/m-ketan/" target="_blank">ketan</a></p></div>
             </div>
     </body>
     
+    <!--ADDED AUDIO FILES CORRESPONDING TO DATA KEYS-->
     <audio data-key="65" src="sounds/clap.wav"></audio>
     <audio data-key="83" src="sounds/hihat.wav"></audio>
     <audio data-key="68" src="sounds/kick.wav"></audio>
@@ -43,6 +47,7 @@
     <audio data-key="75" src="sounds/tom.wav"></audio>
     <audio data-key="76" src="sounds/tink.wav"></audio>
     
+    <!--ADDED TETHER, JQUERY(only to support bootstrap 4), BOOTSTRAP & CUSTOM JS FILES  -->
     <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
