@@ -1,3 +1,3 @@
-A mini drumkit designed using vanilla javascript.
+<h3>A mini drumkit designed using vanilla javascript.</h3>
 
-See it live here: http://javascript-drumkit.s3-website.ap-south-1.amazonaws.com/
+<h1>See it live here: http://javascript-drumkit.s3-website.ap-south-1.amazonaws.com/</h1>
